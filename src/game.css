@@ -1,0 +1,23 @@
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #101018;
+    color: #e6e6ec;
+    font-family: system-ui, sans-serif;
+}
+
+.game-message {
+    display: grid;
+    place-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.game-message h1 {
+    margin: 0 0 8px;
+    font-size: 48px;
+    letter-spacing: 0.1em;
+}
